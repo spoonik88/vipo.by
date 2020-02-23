@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="TEST">
+    <meta name="title" content="TEST">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+   <!--  <link rel="shortcut icon" href="images/favicon.ico"> -->
+</head>
+
+<body>
+    <div class="wrapper_header">
+        <header class="container header">
+            <div class="header_logo">
+                <a href="#">
+                    <img src="images/icon/logo.svg" alt="logo">
+                </a>
+
+            </div>
+            <div class="header_adress">
+                <span class="header_adress--text">г. Брест, ул. Ленина 32/1</span>
+            </div>
+            <div class="header_phone">
+                <span class="header_phone__item">
+						<span class="header_phone--text">+375 29</span> 565 56 65
+                </span>
+                <span class="header_phone__item">
+						<span class="header_phone--text">+375 29</span> 656 65 56
+                </span>
+            </div>
+            <div class="header_social">
+                <a title="viber" class="viber" href="viber://add?number="></a>
+                <a title="whatsapp" class="whatsapp" href="whatsapp://send?text=Hello&phone="></a>
+                <a href="#" class="vk"></a>
+                <a title="skype" class="skype" href="skype:"></a>
+            </div>
+        </header>
+    </div>
+    <div class="wrapper_content">
+        <main class="">
+            <section class="news container">
+                <h2 class="news_header">Последние новости</h2>
+                <div class="news_wrap">
+                    <article class="news_left">
+                        <a href="#" class="news_img">
+                            <picture class="photo_one">
+                                <!-- <source   type="image/webp" srcset="images/1200/1200_photo_1.webp 1200w">  -->
+                                <img src="images/1200/1200_photo_1.jpg" alt="1200_photo_1">
+                            </picture>
+                        </a>
+                        <div class="news_text">
+                            <h3 class="news_text__header"><a href="#" class="news_text--link">История успеха: взял кредит на курсы по веб-дизайну</a></h3>
+                            <p class="news_text__item">Однажды вечером, листая свой инстаграм, он наткнулся на пост, предлагавший решить все его проблемы за 2 недели: работа мечты, макбук на коленях, белый песок, лазурное море и коктейль в руках. И он решил: буду веб-дизайнером!</p>
+                            <a class="news_text__link" href="#">Читать полностью</a>
+
+                        </div>
+                    </article>
+                    <article class="news_right">
+                        <a href="#" class="news_img___right">
+                            <picture class="photo_two">
+                                <!-- <source type="image/webp" srcset="images/1200/1200_photo_2.webp">  -->
+                                <img src="images/1200/1200_photo_2.jpg" alt="1200_photo_2">
+                            </picture>
+                        </a>
+
+                        <div class="news_text-right">
+                            <h3 class="news_text__header">История успеха: взял кредит на курсы по веб-дизайну</h3>
+                            <p class="news_text__item">Парень работал консультантом в магазине электроинструмента уже 4 года, снимал себе квартиру на окраине города. Но понимал, что так больше продолжаться не может.</p>
+                            <a class="news_rigth__link" href="#">Читать полностью</a>
+
+                        </div>
+                    </article>
+
+                </div>
+
+            </section>
+            <section class="request">
+
+                <div class="modal_content_сomment ">
+                    <div class="container">
+                        <div class="request__popup">
+                            <h3 class="request__popup__head">Спасибо, ваша заявка принята!</h3>
+                            <p class="request__popup__item">Наш менеджер перезвонит вам в рабочее время</p>
+
+                            <button type="button" class="send_close_cl" title="Закрыть">Close</button>
+
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="request_header content_form">
+                            <h2 class="request_header__item">Оставьте заявку у нас на сайте </h2>
+                        </div>
+
+                        <form class="form_wrap content_form" id="required_сomment" method="POST" >
+                            <div class="add__fields">
+                                <input type="text" name="first_name_comment" id="first_name_comment" class="form_input" placeholder="Ваше ФИО" pattern="^[а-яА-ЯеЁa-zA-Z]+$" required>
+                                <input type="tel" id="tell" name="phone_comment" class="mask_phone form_input" placeholder="Ваш телефон" required>
+                                <textarea name="" id="" class="form_text" placeholder="Ваш комментарий (необязательно)"></textarea>
+                                <button type="submit" class="form_send" id="send_comment">Отправить</button>
+                            </div>
+
+                        </form>
+                        <div class="msg"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="wrapper_footer">
+        <footer class="container footer">
+            <div class="footer_logo">
+                <a href="#">
+                    <img src="images/icon/logo.svg" alt="logo">
+                </a>
+
+            </div>
+            <div class="footer_adress">
+                <span class="footer_adress--text">г. Брест, ул. Ленина 32/1</span>
+            </div>
+            <div class="footer_phone">
+                <span class="footer_phone__item">
+							<span class="footer_phone--text">+375 29</span> 565 56 65
+                </span>
+                <span class="footer_phone__item">
+							<span class="footer_phone--text">+375 29</span> 656 65 56
+                </span>
+            </div>
+            <div class="footer_social">
+                <a title="viber" class="viber" href="viber://add?number="></a>
+                <a title="whatsapp" class="whatsapp" href="whatsapp://send?text=Hello&phone="></a>
+                <a href="vk" class="vk"></a>
+                <a title="skype" class="skype" href="skype:"></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>   
+    <script src="libs/jquery.maskedinput.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/resize.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/form2.js"></script>
+</body>
+
+</html>
